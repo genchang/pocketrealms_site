@@ -172,4 +172,5 @@ p { margin: 0; }
 .policy .contact h2 { color: var(--cream-head); }
 .policy .contact p { color: #fff; line-height: 1.6; }
 .policy .contact a, .policy .contact .placeholder { color: var(--cream); font-weight: 700; }
+.foot-links { display: inline-flex; gap: 24px; }
 .not-found p { font-size: 17px; line-height: 1.65; color: var(--body); }
