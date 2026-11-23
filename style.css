@@ -66,6 +66,12 @@ p { margin: 0; }
 .tagline { padding: 28px 24px 0; text-align: center; font-family: var(--head); font-weight: 600;
   font-size: clamp(20px, 2.2vw, 26px); line-height: 1.3; color: var(--ink-title); }
 
+.soon { padding: 14px 24px 0; text-align: center; }
+.soon-pill { display: inline-flex; align-items: center; gap: 8px; background: var(--navy); color: var(--cream-light);
+  font-family: var(--head); font-weight: 600; font-size: 15px; letter-spacing: 0.3px; padding: 8px 18px 8px 14px;
+  border-radius: 999px; box-shadow: 3px 3px 0 var(--gold); }
+.soon-icon { flex: none; fill: none; stroke: var(--gold); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
 /* ---------------------------------------------------------------- how it works */
 .steps { padding-top: 32px; padding-bottom: 56px; }
 .steps ol { list-style: none; margin: 0; padding: 0; display: grid;
